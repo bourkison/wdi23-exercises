@@ -1,0 +1,14 @@
+let greaterNum = function(num1, num2)
+{
+  if (num1 > num2)
+  {
+    return num1;
+  }
+  else
+  {
+    return num2;
+  }
+}
+
+console.log(greaterNum(5, 10));
+console.log(greaterNum(13, 7));
