@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+
+body
+{
+  background-color: #222222; /* Can be written as #222 */
+  margin: 0;
+  padding: 0;
+  font-family: 'Lora', sans-serif;
+}
+
+.container
+{
+  width: 960px;
+  margin: auto;
+  background-color: #CCCCCC;
+  padding: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+h1
+{
+  text-align: center;
+  background-color: #222;
+  color: #CCC;
+  padding: 1em;
+}
+
+nav
+{
+  text-align: right;
+}
+
+nav a
+{
+  color: black;
+}
+
+main
+{
+  display: inline-block;
+  width: 75%;
+}
+
+main img
+{
+  /*
+  When we say, margin: 4px - that means its going to do a margin of 4 pixels on all sides.
+  margin: 5px 10px - means that we have a margin of 5 pixels on the top and bottom, and 10 pixels on the left and right
+  margin: 1px 2px 3px 4px - means that we have a margin of 1 pixel on the top, 2 on the side, 3 on the bottom and 4 on the left.
+   */
+  margin: 0 auto;
+  display: block;
+}
+
+aside
+{
+  display: inline-block;
+  width: 21%;
+  vertical-align: top;
+  background-color: #CFC;
+  padding: 1em;
+  margin-top: 63px;
+  border: 1px solid green;
+  border-radius: 0.5em;
+  box-shadow: 0 0 15px black;
+}
+
+aside ul
+{
+  padding-left: 26px;
+}
